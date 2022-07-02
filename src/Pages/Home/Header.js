@@ -21,9 +21,21 @@ const Header = () => {
                         <h2 className="text-white text-3xl">Unleash Your SCRUM Skills,<br />
                         Grab More Attention To Résumé</h2>
                     </div>
-                    <button className="btn btn-outline text-white mt-6">ENROLL NOW</button>
+                    <button className="btn-text">ENROLL NOW</button>
 
                     <div className="time">
+                   <p className="time-heading">10% OFF on all courses* | Offer Valid For</p>
+                   {/* <div className="time-heading-2">
+                   <p className="time-1">02<br />hr</p>
+                   <div className="time-heading">
+
+                   <p className="time-2">58mins</p>
+                   </div>
+                   <div className="time-heading">
+
+                   <p className="time-3">42secn</p>
+                   </div>
+                   </div> */}
 
                     </div>
                 </div>

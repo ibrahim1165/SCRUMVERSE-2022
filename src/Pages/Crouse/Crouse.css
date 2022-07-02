@@ -1,0 +1,32 @@
+.heading {
+    position: absolute;
+    width: 207px;
+    height: 22px;
+    left: 64px;
+    top: 799px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0D0D0D;
+
+}
+
+.heading2 {
+    position: absolute;
+    width: 641px;
+    height: 22px;
+    left: 64px;
+    top: 833px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0D0D0D;
+
+}
+
+
+
