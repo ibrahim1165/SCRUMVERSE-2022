@@ -1,10 +1,7 @@
 .footer {
     position: absolute;
-    width: 1200px;
-    height: 470px;
     left: 0px;
     top: 2805px;
-
     /* Dark/Background */
 
     background: #27282B;
@@ -32,7 +29,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 31px;
+    line-height: 24px;
     color: #FFFFFF;
 }
 
@@ -57,14 +54,14 @@
     gap: 32px;
 
     position: absolute;
-    width: 350px;
+    width: 250px;
     height: 153px;
     left: 600px;
     top: 48px;
 
 }
 
-.call {
+.call{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,7 +152,7 @@
     position: absolute;
     width: 1140px;
     height: 98px;
-    left: 150px;
+    left: 80px;
     top: 299px;
 }
 
@@ -193,3 +190,11 @@
     width: 272px;
     height: 48px;
 }
+@media screen and (max-width: 480px) {
+     .footer{
+        width: 80%;
+        height: 50%;
+        left: 0;
+        right: 0;
+    }
+  }

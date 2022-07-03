@@ -3,11 +3,11 @@ import "./Footer.style.css"
 import { VscCallIncoming, VscBriefcase,VscGithubInverted,VscPlayCircle,VscTwitter,VscGlobe } from "react-icons/vsc";
 const Footer = () => {
     return (
-        <div className="footer mx-auto  h-screen px-6">
-            <div className="logo">
+        <div className="footer mx-auto max-w-screen h-screen grid grid-cols-1  px-6">
+            <div className="logo grid grid-cols-1">
                 <h1 className="logo-name">Logo</h1>
                 <p className="logo-title">We ara a lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun.</p>
-                <div className="flex">
+                <div className="flex flex-cols-1">
                     <div className="flex items-center">
                         <div>
                             <p className="call text-white"><VscCallIncoming /> </p>
@@ -29,7 +29,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="news">
+            <div className="news grid grid-cols-1">
                 <h1 className="logo-name">Newsletter</h1>
                 <p className="logo-title">Be the first one to know about discounts, offers and events weekly in your mailbox. Unsubscribe whenever you like with one click.</p>
                 <div className="">
@@ -60,7 +60,7 @@ const Footer = () => {
                     <p>Terms of Use</p>
                 </div>
                 <div className="button-bar">
-                    <div className="socail">
+                    <div className="socail text-3xl m-6 ">
                         <p><VscGithubInverted /></p>
                         <p><VscPlayCircle /></p>
                         <p><VscTwitter /></p>

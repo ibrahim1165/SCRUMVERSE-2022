@@ -15,6 +15,7 @@ const HeroSection = () => {
             Start learning with <br />us right now!
             </span>
             <span>Brands & Clients</span>
+            <p className="text-2xl mt-4 text-black font-bold">Choose from 100+ online video courses with new updates.</p>
             <spane>
               Lorem ispum is simpley dummy text of printing of printing Lorem
               <br />

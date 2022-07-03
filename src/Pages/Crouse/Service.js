@@ -3,7 +3,6 @@ import Rating from '../Rating/Rating';
 import "./Crouse.css"
 const Service = ({service}) => {
     const{name,discreption,img}=service;
-    console.log(service)
     return (
         <div>
             <div>

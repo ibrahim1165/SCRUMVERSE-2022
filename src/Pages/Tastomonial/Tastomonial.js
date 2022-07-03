@@ -12,7 +12,7 @@ import 'swiper/css/scrollbar';
 
 const Tastomonial = () => {
     return (
-        <div className=" lg:px-40 m-12">
+        <div className="max-w-screen h-screen lg:px-40 m-12">
             <div className="flex items-center mt-44">
                 <div>
                 <h1 className="text-2xl font-bold">OUR TESTIMONIALS</h1>
