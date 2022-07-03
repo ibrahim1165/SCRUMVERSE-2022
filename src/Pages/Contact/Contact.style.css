@@ -1,0 +1,21 @@
+.contact {
+    position: absolute;
+    width: 1312px;
+    height: 120px;
+    justify-content: between;
+    /* left: 64px; */
+    /* top: 2791px; */
+
+    background: #5F72BE;
+    border-radius: 12px;
+}
+
+.btn-btn {
+    width: 308px;
+    height: 52px;
+    left: 998px;
+    top: 2825px;
+
+    background: #2D81F7;
+    border-radius: 12px;
+}

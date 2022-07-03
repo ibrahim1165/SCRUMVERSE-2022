@@ -1,7 +1,7 @@
 .footer {
     position: absolute;
-    width: 1220px;
-    height: 437px;
+    width: 1200px;
+    height: 470px;
     left: 0px;
     top: 3005px;
 
@@ -15,12 +15,12 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    gap: 24px;
+    gap: 20px;
 
     position: absolute;
-    width: 448px;
+    width: 30px;
     height: 163px;
-    left: 150px;
+    left: 140px;
     top: 48px;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .logo-title {
-    width: 458px;
+    width: 300px;
     height: 48px;
 
     font-family: 'Plus Jakarta Display';
@@ -57,9 +57,9 @@
     gap: 32px;
 
     position: absolute;
-    width: 569px;
-    height: 163px;
-    left: 720px;
+    width: 350px;
+    height: 153px;
+    left: 600px;
     top: 48px;
 
 }
@@ -166,7 +166,7 @@
     align-items: center;
     padding: 0px;
 
-    width: 1000px;
+    width: 950px;
     height: 18px;
 
 }

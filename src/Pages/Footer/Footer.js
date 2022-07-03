@@ -3,7 +3,7 @@ import "./Footer.style.css"
 import { VscCallIncoming, VscBriefcase,VscGithubInverted,VscPlayCircle,VscTwitter,VscGlobe } from "react-icons/vsc";
 const Footer = () => {
     return (
-        <div className="footer mx-auto px-0">
+        <div className="footer mx-auto  h-screen px-6">
             <div className="logo">
                 <h1 className="logo-name">Logo</h1>
                 <p className="logo-title">We ara a lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun.</p>

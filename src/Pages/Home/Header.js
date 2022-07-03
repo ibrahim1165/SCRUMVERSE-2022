@@ -25,17 +25,9 @@ const Header = () => {
 
                     <div className="time">
                    <p className="time-heading">10% OFF on all courses* | Offer Valid For</p>
-                   {/* <div className="time-heading-2">
-                   <p className="time-1">02<br />hr</p>
-                   <div className="time-heading">
-
-                   <p className="time-2">58mins</p>
+                   <div>
+                    
                    </div>
-                   <div className="time-heading">
-
-                   <p className="time-3">42secn</p>
-                   </div>
-                   </div> */}
 
                     </div>
                 </div>
