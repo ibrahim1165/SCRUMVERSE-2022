@@ -22,7 +22,7 @@ const Tastomonial = () => {
                 </div>
             </div>
               <Swiper
-              className="mt-48 gird grid-cols-1 gap-4 lg:gap-0"
+              className="mt-32 gird grid-cols-1 gap-4 lg:gap-0"
               modules={[Pagination, A11y]}
               spaceBetween={50}
               slidesPerView={3}

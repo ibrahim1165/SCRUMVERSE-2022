@@ -3,7 +3,7 @@ import "./Contact.style.css"
 
 const Contact = () => {
     return (
-        <div className="max-w-screen -96 lg:px-20 lg:mt-24">
+        <div className="max-w-screen lg:px-20 lg:mt-36 grid grid-cols-1 mx-auto">
             <div
              className="container contact flex items-center justify-center"> 
                 <div  className="text-white mt-4 px-6">

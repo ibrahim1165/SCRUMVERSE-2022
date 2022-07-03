@@ -52,7 +52,7 @@ const HeroSection = () => {
               <h3>100K+ <br />Views</h3>
             </div>{" "}
             <div className="w-secCircle">
-              <h2>1000+Lessons</h2>
+              <h2>1000+<br />Lessons</h2>
             </div>
             <div className="w-secCircle">
               <img src={victor2} alt="" />

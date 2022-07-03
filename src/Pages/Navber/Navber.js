@@ -15,12 +15,13 @@ const Navber = () => {
                     <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 bg-black">
                         <li><a href='#/home'>HOME</a></li>
                         <li><a>ABOUT</a></li>
-                        <li><Link to="/crouse" >COURSES</Link></li>
+                        <li><Link to="/" >COURSES</Link></li>
                         <li><a>BLOGS</a></li>
                     </ul>
                 </div>
-                <div className=" rounded-lg">
+                <div className="rounded-lg">
                     <img className="w-[30px] h-[26px] mx-4" src={bg} alt="" />
+                    <img className="w-[30px] h-[26px] mt-[-20px] mx-4" src={bg} alt="" />
                 </div>
                 <a class="text-black">
                     <h4 className="text-white">SCRUMVERSE</h4>
@@ -31,13 +32,13 @@ const Navber = () => {
                 <ul class="menu menu-horizontal p-0">
                     <li><Link to="/">HOME</Link></li>
                     <li><a>ABOUT</a></li>
-                    <li><Link to="/service" >COURSES</Link></li>
+                    <li><Link to="/" >COURSES</Link></li>
                     <li><a>BLOGS</a></li>
                 </ul>
             </div>
             <div class="navbar-end">
-                <Link to="/login" class="px-4">Login</Link>
-                <Link to="/singup" class="btn btn-xs rounded-lg btn-outline text-white">SingUp</Link>
+                <Link to="/" class="px-4">Login</Link>
+                <Link to="/" class="btn btn-xs rounded-lg btn-outline text-white">SingUp</Link>
             </div>
         </div>
     );

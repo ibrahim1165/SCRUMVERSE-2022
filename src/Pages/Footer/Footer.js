@@ -3,8 +3,8 @@ import "./Footer.style.css"
 import { VscCallIncoming, VscBriefcase,VscGithubInverted,VscPlayCircle,VscTwitter,VscGlobe } from "react-icons/vsc";
 const Footer = () => {
     return (
-        <div className="footer mx-auto max-w-screen h-screen grid grid-cols-1  px-6">
-            <div className="logo grid grid-cols-1">
+        <div className="footer mx-auto max-w-screen h-screen  px-6 grid grid-cols-1 md:grid-cols-2">
+            <div className="logo grid gird grid-cols-1">
                 <h1 className="logo-name">Logo</h1>
                 <p className="logo-title">We ara a lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun.</p>
                 <div className="flex flex-cols-1">
@@ -43,7 +43,6 @@ const Footer = () => {
                     </div>           
                 </div>
             </div>
-          
             <div>
             </div>
             <div className="steps text-white">
@@ -67,7 +66,7 @@ const Footer = () => {
                         <p><VscGlobe /></p>
                     </div>
                     <div>
-                        <p>© 2000-2021, All Rights Reserved</p>
+                        <p>© 2000-2022, All Rights Reserved</p>
                     </div>
                 </div>
 

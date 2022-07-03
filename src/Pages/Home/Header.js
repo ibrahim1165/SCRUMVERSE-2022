@@ -4,6 +4,7 @@ import pic1 from '../../assest/Ellipse 1.png'
 import pic2 from '../../assest/Ellipse 2.png'
 import pic3 from '../../assest/Ellipse 3.png'
 import pic4 from '../../assest/Ellipse 4.png'
+import Time from '../Time/Time';
 
 const Header = () => {
 
@@ -25,8 +26,8 @@ const Header = () => {
 
                     <div className="time">
                    <p className="time-heading">10% OFF on all courses* | Offer Valid For</p>
-                   <div>
-                    
+                   <div className="time-2">
+                    <Time />
                    </div>
 
                     </div>
@@ -38,7 +39,7 @@ const Header = () => {
                     <img className="img3" src={pic2} alt="" />
                     <img className="img4" src={pic1} alt="" />
                 </div>
-
+                    
                 </div>
 
         </div>

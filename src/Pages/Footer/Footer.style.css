@@ -1,5 +1,6 @@
-.footer {
+.footer{
     position: absolute;
+    height: 437px;
     left: 0px;
     top: 2805px;
     /* Dark/Background */
@@ -148,7 +149,6 @@
     align-items: flex-start;
     padding: 0px;
     gap: 32px;
-
     position: absolute;
     width: 1140px;
     height: 98px;
@@ -171,7 +171,7 @@
 .button-bar {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     padding: 0px;
 
@@ -192,8 +192,9 @@
 }
 @media screen and (max-width: 480px) {
      .footer{
-        width: 80%;
-        height: 50%;
+        /* width: 100%; */
+        grid-template-columns:repeat(1, 1fr) ;
+        /* height: 50%; */
         left: 0;
         right: 0;
     }
