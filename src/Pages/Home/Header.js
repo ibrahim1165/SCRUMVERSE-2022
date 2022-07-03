@@ -12,7 +12,7 @@ const Header = () => {
             style={{
                 backgroundColor: '#9921E8',
                 backgroundImage: "cover",
-            }} className="max-w-screen h-screen">
+            }} className="max-w-screen h-screen mx-auto">
                 <div className="flex">
 
                 <div className="mt-14 px-8 justify-start">
@@ -40,7 +40,7 @@ const Header = () => {
                     </div>
                 </div>
 
-                <div className="">
+                <div className="hidden md:block">
                    <img className="img1" src={pic4} alt="" />
                    <img className="img2" src={pic3} alt="" />
                     <img className="img3" src={pic2} alt="" />

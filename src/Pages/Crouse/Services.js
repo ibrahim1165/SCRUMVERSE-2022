@@ -30,7 +30,7 @@ const Services = () => {
         },
     ]
     return (
-        <div className="container grid grid-cols-1 md:grid-cols-4 mt-72 mx-auto gap-4 mb-4 px-20 lg:px-0">
+        <div className="container grid grid-cols-1 md:grid-cols-4 mt-52 mx-auto gap-4 mb-4 px-20 lg:px-0">
             {
                 services.map(service=><Service
                 key={service.id}
